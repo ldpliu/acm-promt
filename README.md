@@ -9,9 +9,10 @@
 4. create a acm hub
 5. hibernate all my clusters
 6. resume all my clusters
+7. create a cronjob to hierbernate all clusters in ns
+8. migrate the clusters to hub2
 
 ## policies
-
 
 
 
@@ -20,7 +21,6 @@
 
 # other notes
 ## prerequest
-1. use kubeconfig?
+1. use kubeconfig? if not use ~/.kube/config
 2. my namespace
 3. my cluster name format
-4. 
