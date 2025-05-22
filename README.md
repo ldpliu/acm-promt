@@ -1,3 +1,7 @@
+# Why
+Provide a tools to use ai to make ACM more easy to use.
+
+
 # acm-promt
 
 # use cases
