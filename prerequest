@@ -1,0 +1,6 @@
+# Prerequest
+
+- all the kubeconfig file in “~/.kube”
+- if the kubeconfig is "config-colle"
+  - should use "oc project acm-hub-of-hubs" swith to namespace "acm-hub-of-hubs"
+  - all my cluster(clusterclaim.hive) name has prefix “liudp-”
