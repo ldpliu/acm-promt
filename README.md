@@ -24,3 +24,7 @@
 1. use kubeconfig? if not use ~/.kube/config
 2. my namespace
 3. my cluster name format
+
+- all the kubeconfig file in ~/.kube
+- if the kubeconfig is config-colle, should use `oc project acm-hub-of-hubs` swith to namespace `acm-hub-of-hubs`
+- if the kubeconfig is config-colle, all my cluster(clusterclaim.hive) name has prefix `liudp-`
