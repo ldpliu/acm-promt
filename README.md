@@ -1,5 +1,5 @@
 # Why
-Provide a tools to use ai to make ACM more easy to use.
+Provide a tools to use AI to make ACM more easy to use, and make the AI tool more accurate
 
 
 # acm-promt
