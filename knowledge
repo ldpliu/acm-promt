@@ -1,0 +1,4 @@
+# ACM knowledge
+
+- detach cluster means delete the managedcluster resource.
+- stop/hibernating/resume/start cluster should follow doc(https://github.com/openshift/hive/blob/master/docs/hibernating-clusters.md)
