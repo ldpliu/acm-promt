@@ -1,3 +1,5 @@
+You should follow this prerequest when you do any action.
+
 # Prerequest
 
 - all the kubeconfig file in “~/.kube”
