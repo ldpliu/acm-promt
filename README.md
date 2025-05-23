@@ -9,12 +9,13 @@ Provide a tools to use AI to make ACM more easy to use, and make the AI tool beh
 ## clusters 
 1. claim a cluster from cluster pool
 2. create a clusterpool based on latest ocp 4.19 images
-3. import cluster <xxx> to xxx
-4. create a acm hub
-5. hibernate all my clusters
-6. resume all my clusters
-7. create a cronjob to hierbernate all clusters in ns
-8. migrate the clusters to hub2
+3. get user passwd/ consol link of a cluster.
+4. import cluster <xxx> to xxx
+5. create a acm hub
+6. hibernate all my clusters
+7. resume all my clusters
+8. create a cronjob to hierbernate all clusters in ns
+9. migrate the clusters to hub2
 
 ## policies
 
