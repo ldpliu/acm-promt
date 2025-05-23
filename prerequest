@@ -2,8 +2,6 @@ You should follow this prerequest when you do any action.
 
 # Prerequest
 
-- all the kubeconfig file in “~/.kube”
-- if the kubeconfig is "config-colle"
-  - should use "oc project acm-hub-of-hubs" swith to namespace "acm-hub-of-hubs"
-  - all my cluster(clusterclaim.hive) name has prefix “liudp-”
+- should use "oc project acm-hub-of-hubs" swith to namespace "acm-hub-of-hubs"
+- all my cluster(clusterclaim.hive) name has prefix “liudp-”
 - must get approve when do any create/update/delete/patch/apply actions which may need change cluster resource.
