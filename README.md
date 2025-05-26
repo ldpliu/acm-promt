@@ -1,10 +1,10 @@
 # Why
 When interacting with AI tools to execute operations on an ACM cluster, there is a high degree of behavioral uncertainty in current AI systems, and the responses from different LLM often lack consistency.
 
-Provide a tools/MCP server to use AI to make ACM more easy to use, and make the AI tool behavior more accurate and controlled.
+Provide a tools/MCP server to use AI to make ACM more easy to use, and make the AI tool behavior more accurate and controlled. With this, user could chat with ACM in Cursor/Cline easily.
 
 # use cases
-When I send the following request, I expect a deterministic result with a single, well-defined execution path.
+When I send the following request to collective env, I expect the result to be deterministic.
 
 ## clusters 
 1. claim a cluster from latest cluster pool
@@ -15,7 +15,6 @@ When I send the following request, I expect a deterministic result with a single
 6. hibernate all my clusters
 7. resume all my clusters
 8. create a cronjob to hierbernate all clusters in ns
-9. migrate the clusters to hub2
 
 ## policies
 1. enable all policy to all aws clusters
