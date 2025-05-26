@@ -1,13 +1,13 @@
 # Why
-Provide a tools to use AI to make ACM more easy to use, and make the AI tool behavior more accurate and controlled.
+When interacting with AI tools to execute operations on an ACM cluster, there is a high degree of behavioral uncertainty in current AI systems, and the responses from different LLM often lack consistency.
 
-
-# acm-promt
+Provide a tools/MCP server to use AI to make ACM more easy to use, and make the AI tool behavior more accurate and controlled.
 
 # use cases
+When I send the following request, I expect a deterministic result with a single, well-defined execution path.
 
 ## clusters 
-1. claim a cluster from cluster pool
+1. claim a cluster from latest cluster pool
 2. create a clusterpool based on latest ocp 4.19 images
 3. get user passwd/ consol link of a cluster.
 4. import cluster <xxx> to xxx
@@ -18,18 +18,7 @@ Provide a tools to use AI to make ACM more easy to use, and make the AI tool beh
 9. migrate the clusters to hub2
 
 ## policies
-
-
+1. enable all policy to all aws clusters
 
 # process -> suggestion
 
-
-# other notes
-## prerequest
-1. use kubeconfig? if not use ~/.kube/config
-2. my namespace
-3. my cluster name format
-
-- all the kubeconfig file in ~/.kube
-- if the kubeconfig is config-colle, should use `oc project acm-hub-of-hubs` swith to namespace `acm-hub-of-hubs`
-- if the kubeconfig is config-colle, all my cluster(clusterclaim.hive) name has prefix `liudp-`
