@@ -6,4 +6,3 @@
     $ oc patch clusterdeployment mycluster --type='merge' -p $'spec:\n powerState: Hibernating' -n mycluster
     $ oc patch clusterdeployment mycluster --type='merge' -p $'spec:\n powerState: Running' -n mycluster
 - claim a cluster means create a clusterclaim.hive, you can get example in current env in current namespace. 
-
