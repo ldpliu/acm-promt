@@ -1,5 +1,5 @@
 # ACM knowledge
-
+- Collective cluster api server: https://api.collective.aws.red-chesterfield.com:6443
 - detach cluster means delete the managedcluster resource, do not delete clusterclaim.hive
 - stop/hibernating/resume/start cluster should follow doc(https://github.com/openshift/hive/blob/master/docs/hibernating-clusters.md) 
     example: 
