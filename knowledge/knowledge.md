@@ -5,4 +5,8 @@
     example: 
     $ oc patch clusterdeployment mycluster --type='merge' -p $'spec:\n powerState: Hibernating' -n mycluster
     $ oc patch clusterdeployment mycluster --type='merge' -p $'spec:\n powerState: Running' -n mycluster
-- claim a cluster means create a clusterclaim.hive, you can get example in current env in current namespace. 
+- claim a cluster means create a clusterclaim.hive, you can get example in current env in current namespace.
+- Add label `do-not-hibernate=true` to a <claim-name> will make the cluster do not hibernate automatically.
+- Add label `do-not-delete=true` to a <claim-name> will make the cluster do not delete automatically.
+
+
