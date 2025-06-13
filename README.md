@@ -14,7 +14,8 @@ When I send the following request to collective env, I expect the result to be d
 5. create a acm hub
 6. hibernate all my clusters
 7. resume all my clusters
-8. create a cronjob to hierbernate all clusters in ns
+8. do not hibernate/delete my cluster auto.
+9. create a cronjob to hierbernate all clusters in ns
 
 ## policies
 1. enable all policy to all aws clusters
