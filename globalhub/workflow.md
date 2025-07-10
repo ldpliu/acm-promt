@@ -12,6 +12,13 @@
 - run `cd operator` and  `make deploy` to deploy globalhub operator
 - apply the globalhub cr: `oc apply -f config/samples/operator_v1alpha4_multiclusterglobalhub.yaml`
 
+## Install Globalhub with my image
+- switch to globalhub code directory
+- run `make build-operator-image && docker tag quay.io/stolostron/multicluster-global-hub-operator:latest quay.io/ldpliu/multicluster-global-hub-operator:latest && docker push quay.io/ldpliu/multicluster-global-hub-operator:latest`
+- run `cd operator` and  `make deploy` to deploy globalhub operator
+- update the deployment `multicluster-global-hub-operator` container image to `quay.io/ldpliu/multicluster-global-hub-operator:latest`
+- apply the globalhub cr: `oc apply -f config/samples/operator_v1alpha4_multiclusterglobalhub.yaml`
+
 ## UnInstall Globalhub
 - switch to globalhub code directory
 - delete mgh by `oc delete mgh --all`
