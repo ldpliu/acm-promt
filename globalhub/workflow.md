@@ -19,6 +19,10 @@
 - update the deployment `multicluster-global-hub-operator` container image to `quay.io/ldpliu/multicluster-global-hub-operator:latest`
 - apply the globalhub cr: `oc apply -f config/samples/operator_v1alpha4_multiclusterglobalhub.yaml`
 
+## Reinstall Globalhub with my image
+- Uninstall Globalhub 
+- Install Globalhub with my image
+
 ## UnInstall Globalhub
 - switch to globalhub code directory
 - delete mgh by `oc delete mgh --all`
