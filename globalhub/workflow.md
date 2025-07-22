@@ -1,5 +1,5 @@
 # Globalhub Env:
-- my globalhub kubeconfig: ~/.kube/config-liudp-gh1
+- my globalhub kubeconfig: ~/.kube/config-gh
 - globalhub code directory: ~/go/src/github.com/stolostron/multicluster-global-hub
 
 # Prerequest
