@@ -1,6 +1,6 @@
 # Globalhub Env:
-- idf <<globalhub kubeconfig>>: ~/.kube/config-gh
-- <<globalhub code dir>>: ~/go/src/github.com/stolostron/multicluster-global-hub
+- `<globalhub kubeconfig>`: ~/.kube/config-gh
+- `<globalhub code dir>`: ~/go/src/github.com/stolostron/multicluster-global-hub
 
 # Prerequest
 - switch to use globalhub cluster by `export KUBECONFIG=<globalhub kubeconfig>`
