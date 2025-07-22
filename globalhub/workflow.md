@@ -1,15 +1,15 @@
 # Globalhub Env:
-- my globalhub kubeconfig: ~/.kube/config-gh
-- globalhub code directory: ~/go/src/github.com/stolostron/multicluster-global-hub
+- <globalhub kubeconfig>: ~/.kube/config-gh
+- <globalhub code dir>: ~/go/src/github.com/stolostron/multicluster-global-hub
 
 # Prerequest
-- switch to use globalhub cluster by `export KUBECONFIG=<Globalhub kubeconfig>`
+- switch to use globalhub cluster by `export KUBECONFIG=<globalhub kubeconfig>`
 - run `oc project multicluster-global-hub` to swith to globalhub namespace
 
 # WorkFlow
 ## Install Globalhub
-- switch to globalhub code directory
-- run `cd operator` and  `make deploy` to deploy globalhub operator
+- switch to globalhub code directorycd
+- run `cd <globalhub code dir>/operator` and  `make deploy` to deploy globalhub operator
 - apply the globalhub cr: `oc apply -f config/samples/operator_v1alpha4_multiclusterglobalhub.yaml`
 
 ## Install Globalhub with my image
